@@ -1,4 +1,4 @@
-const CACHE_NAME = "crown-cards-v2";
+const CACHE_NAME = "crown-cards-v3";
 
 const CORE_ASSETS = [
   "./",
@@ -8,17 +8,17 @@ const CORE_ASSETS = [
   "./nosleep.mp4",
 
   // Card images (pre-cached for offline use)
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/3S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/4S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/5S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/6S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/7S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/8S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/9S%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/TS%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/JS%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/QS%403x.png",
-  "https://raw.githubusercontent.com/Xadeck/xCards/refs/heads/master/png/face/KS%403x.png"
+  "./images/3S%403x.webp",
+  "./images/4S%403x.webp",
+  "./images/5S%403x.webp",
+  "./images/6S%403x.webp",
+  "./images/7S%403x.webp",
+  "./images/8S%403x.webp",
+  "./images/9S%403x.webp",
+  "./images/TS%403x.webp",
+  "./images/JS%403x.webp",
+  "./images/QS%403x.webp",
+  "./images/KS%403x.webp"
 ];
 
 self.addEventListener("install", event => {
